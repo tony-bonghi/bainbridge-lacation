@@ -3,7 +3,7 @@
 
 /* mixins, variables, etc. */
 
-$gray-medium-light: #eaeaea;
+$gray-medium-light: #B6E2FF;
 
 /* universal */
 
@@ -17,6 +17,7 @@ section {
 
 textarea {
   resize: vertical;
+  font-size: 10px;
 }
 
 .center {
@@ -53,7 +54,6 @@ p {
   line-height: 1.7em;
 }
 
-
 /* header */
 
 #logo {
@@ -69,6 +69,11 @@ p {
     color: white;
     text-decoration: none;
   }
+}
+
+/* Container */
+div.container {
+  font-size: 10px;
 }
 
 /* footer */
