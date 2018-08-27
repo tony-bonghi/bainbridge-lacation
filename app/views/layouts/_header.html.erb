@@ -2,13 +2,15 @@
   <div class="container">
     <%= link_to "Bainbridge Lactation Services", root_path, id: "logo", class: "btn btn-lg btn-primary" %>
     <nav>
+    <div class="btn-group-toggle" data-toggle="buttons">
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",         root_path,        class: "btn btn-lg btn-primary"          %></li>
-        <li><%= link_to "Services",     services_path,        class: "btn btn-lg btn-primary"      %></li>
-        <li><%= link_to "Testimonials", testimonials_path,        class: "btn btn-lg btn-primary"  %></li>
-        <li><%= link_to "Contact",      contact_path,        class: "btn btn-lg btn-primary"       %></li>
-        <li><%= link_to "About",        about_path,        class: "btn btn-lg btn-primary"         %></li>
+        <li><%= link_to "Home",         root_path,        class: "btn btn-sm btn-primary"          %></li>
+        <li><%= link_to "Services",     services_path,        class: "btn btn-sm btn-primary"      %></li>
+        <li><%= link_to "Testimonials", testimonials_path,        class: "btn btn-sm btn-primary"  %></li>
+        <li><%= link_to "Contact",      contact_path,        class: "btn btn-sm btn-primary"       %></li>
+        <li><%= link_to "About",        about_path,        class: "btn btn-sm btn-primary"         %></li>
       </ul>
+    </div>
     </nav>
   </div>
 </header>

@@ -3,7 +3,7 @@
 
 /* mixins, variables, etc. */
 
-$gray-medium-light: #B6E2FF;
+$gray-medium-light: #b6e2ff;
 
 /* universal */
 
@@ -73,7 +73,8 @@ p {
 
 /* Container */
 div.container {
-  font-size: 10px;
+  font-size: 14px;
+  size: 75%;
 }
 
 /* footer */
