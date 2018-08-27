@@ -9,13 +9,19 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   end
 
   def setup
-    @base_title = "Ruby on Rails Tutorial Sample App"
+    @base_title = "Bainbridge Lactation Services"
   end
     
-  test "should get help" do
-    get help_path
+  test "should get services" do
+    get services_path
     assert_response :success
-    assert_select "title", "Help | #{@base_title}"
+    assert_select "title", "Services | #{@base_title}"
+  end
+  
+  test "should get testimonials" do
+    get testimonials_path
+    assert_response :success
+    assert_select "title", "Testimonials | #{@base_title}"
   end
 
   test "should get about" do
