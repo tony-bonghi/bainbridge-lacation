@@ -36,14 +36,14 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center;
   font-weight: normal;
   color: $gray-light;
@@ -75,6 +75,10 @@ p {
 div.container {
   font-size: 14px;
   size: 75%;
+}
+
+header.main-bar {
+  background-color:blue;
 }
 
 /* footer */
